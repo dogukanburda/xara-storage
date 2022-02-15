@@ -1,0 +1,28 @@
+{
+  "name": "@flowforge/nr-storage",
+  "version": "0.1.0",
+  "description": "A HTTP REST Storage Plugin for Node-RED",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-red",
+    "flowforge"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flowforge/flowforge-nr-storage.git"
+  },
+  "author": {
+    "name": "FlowForge Inc."
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/flowforge/flowforge-nr-storage/issues"
+  },
+  "homepage": "https://github.com/flowforge/flowforge-nr-storage#readme",
+  "dependencies": {
+    "got": "^11.8.2"
+  }
+}
