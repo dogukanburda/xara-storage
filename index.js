@@ -298,7 +298,7 @@ var xaraStorage = {
         }
         var data = {}
         data.flows = flowData;
-        data.xara_uuid = "12345678";
+        data.xara_uuid = process.env.OWN_GUID;
         undici.fetch('http://sidecar:7887/storage/flows', {
             method: 'post',
             body: JSON.stringify(data),

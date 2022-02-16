@@ -1,6 +1,6 @@
 {
   "name": "xara-storage",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A HTTP REST Storage Plugin for Xara",
   "main": "index.js",
   "scripts": {
